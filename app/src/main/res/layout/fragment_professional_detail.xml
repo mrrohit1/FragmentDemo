@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#04B4AE">
+
+            <TextView
+                android:id="@+id/text_view_name_professional"
+                style="@style/TextViewStyle"
+                tools:text="Name : Rohit Maurya" />
+
+            <TextView
+                android:id="@+id/text_view_age_professional"
+                style="@style/TextViewStyle"
+                tools:text="Age : 22" />
+
+            <TextView
+                android:id="@+id/text_view_gender_professional"
+                style="@style/TextViewStyle"
+                tools:text="Gender:Male" />
+
+            <TextView
+                android:id="@+id/text_view_contact_number_professional"
+                style="@style/TextViewStyle"
+                tools:text="Contact Number : 9820334104" />
+
+            <EditText
+                android:id="@+id/edit_text_company_name_professional"
+                style="@style/EditTextStyle"
+                android:hint="Company Name" />
+
+            <EditText
+                android:id="@+id/edit_text_experience_professional"
+                style="@style/EditTextStyle"
+                android:hint="Experience" />
+
+            <EditText
+                android:id="@+id/edit_text_salary_professional"
+                style="@style/EditTextStyle"
+                android:hint="Salary" />
+
+            <Button
+                android:id="@+id/button_professinal_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button_professinal_previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="20sp"
+                    android:text="Previous" />
+
+                <Button
+                    android:id="@+id/button_professinal_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="20sp"
+                    android:text="Next" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
