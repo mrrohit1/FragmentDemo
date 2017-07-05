@@ -23,8 +23,8 @@ public class FourFragmentActivity extends AppCompatActivity {
         final FragmentManager manager = getSupportFragmentManager();
 
 
-        Button button = (Button) findViewById(R.id.button_move_number);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button btn = (Button) findViewById(R.id.button_move_number);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mCount++;
